@@ -4,7 +4,7 @@
   "description": "practice",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devstart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/marcjefferson12121999/Express-MongoDB-rest-API/issues"
   },
-  "homepage": "https://github.com/marcjefferson12121999/Express-MongoDB-rest-API#readme"
+  "homepage": "https://github.com/marcjefferson12121999/Express-MongoDB-rest-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
 }

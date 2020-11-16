@@ -14,5 +14,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/subscribers/
-5fb13365c7d8d31b3c6f2639
+DELETE http://localhost:3000/subscribers/5fb13365c7d8d31b3c6f2639
+
+###
+PATCH http://localhost:3000/subscribers/5fb13365c7d8d31b3c6f2639
